@@ -1,0 +1,80 @@
+body{
+    font-family: Open-sans, sans-serif;
+    background-color: #f4f4f4;
+    font-size:16px;
+}
+
+h1{
+    text-align:center;
+    margin:5px 5px 50px 5px;
+    padding:5px;
+    color:#D91828;
+}
+
+p{
+    line-height:1.5em;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+select, textarea, input[type='date']{
+    font-family: Open-sans, sans-serif;
+    font-size:16px;
+    width:100%;
+    padding: 7px 5px;
+    box-sizing:border-box;
+    border: 1px solid #eaeaea;
+    outline-color: blue;
+}
+
+.contenedor{
+    margin: 55px auto;
+    width: 400px;
+    padding:15px;
+    background-color: #ffffff;
+}
+
+input[type='text'], input[type='date']{
+    width:100%;
+    padding: 7px 5px;
+    box-sizing:border-box;
+    border: 1px solid #eaeaea;
+    font-size:16px;
+}
+
+fieldset{
+    border: 1px solid #eaeaea;
+}
+
+input{
+    outline-color: blue;
+}
+
+input[type='submit']{
+    background-color: #0080ff;
+    color:#ffffff;
+    padding: 10px;
+    text-align:center;
+    width:100%;
+    font-size: 1.5em;
+    border:0;
+    margin-top: 50px;
+}
+
+input[type='submit']:hover{
+    cursor:pointer;
+    background-color: blue;
+}
+
+label{
+    color: #000000;
+    font-size:0.9em;
+}
+
+.contenedor > div{
+    margin-bottom: 15px;
+}
